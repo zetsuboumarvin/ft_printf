@@ -6,7 +6,7 @@
 /*   By: jflorent <jflorent@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/18 12:12:29 by clianne           #+#    #+#             */
-/*   Updated: 2019/10/29 15:45:24 by jflorent         ###   ########.fr       */
+/*   Updated: 2019/10/29 16:16:39 by clianne          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,7 @@
 # define T_STR 's'
 # define T_FILE	'm'
 # define T_DATE 'k'
-# define T_SYS_CHAR 't'
+# define T_SYS_CHAR 'r'
 # define T_PER '%'
 # define ANSI_COLOR_RED		"\x1b[31m"
 # define ANSI_COLOR_GREEN	"\x1b[32m"

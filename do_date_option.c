@@ -6,7 +6,7 @@
 /*   By: clianne <clianne@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/15 08:59:50 by clianne           #+#    #+#             */
-/*   Updated: 2019/10/29 11:20:36 by clianne          ###   ########.fr       */
+/*   Updated: 2019/10/29 16:12:23 by clianne          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -96,7 +96,7 @@ int				do_date_option(t_options node, void *data)
 		ft_putstr("(null)");
 		return (6);
 	}
-	tm = time(NULL);
+	tm = time(0);
 	dt = localtime(&tm);
 	str = (char*)data;
 	idx = 0;
